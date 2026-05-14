@@ -101,3 +101,175 @@ All Regulation M formal criteria pass. The SELL signal at AAPL's 52-week high ($
 Trades may proceed within established risk parameters. Compliance team should monitor for any volume anomalies or coordinated activity if short positions are initiated.",COMPLIANT,,,
 5,AAPL,2026-05-14T11:27:40.452266,SUPERVISOR,HOLD,0.8,No supervisor decision available,,,,
 6,AAPL,2026-05-14T11:28:14.336432,SIGNAL,SELL,0.72,"AAPL is trading at $298.87, just below the 52-week high and near the 0% Fibonacci level ($300.92), indicating strong resistance. RSI is severely overbought at 78.0, and MACD is strongly positive at 8.55 — classic signs of an overextended rally. Despite bullish short-term sentiment (+4.1% in 3 days), the Fibonacci model signals SELL with 65% confidence. The convergence of overbought RSI, proximity to the all-time high resistance, and Fibonacci reversal signal justifies a SELL with a target entry at $298.87, exit/take-profit at the 38.2% retracement of $285.68.",,HIGH,,
+7,AMAT,2026-05-14T13:40:35.028629,STRATEGY,HOLD,0.62,"AMAT is in a STRONG_UPTREND with price at $436.61, near the 52-week high of $443.62. RSI at 59.28 indicates bullish momentum without overbought conditions. MACD is positive at 9.94, confirming upward momentum. However, Fibonacci analysis signals SELL with 65% confidence as price approaches the 23.6% retracement level ($431.60) from the top, suggesting potential near-term resistance. Conflicting signals between trend strength and Fibonacci resistance justify a HOLD stance. Entry on a confirmed breakout above $443.62 (52W high) or on a pullback to the $421–$431 Fibonacci support zone.",,MEDIUM,,
+8,AMAT,2026-05-14T13:41:55.832939,STRATEGY,HOLD,0.62,"AMAT is in a STRONG_UPTREND with current price at $436.61, up from previous close of $431.20. RSI at 59.28 indicates bullish momentum without overbought conditions. MACD at +9.94 is positive but signal line unavailable for crossover confirmation. Fibonacci analysis places price just above the 23.6% retracement level ($431.60), suggesting consolidation near resistance at $448.45 (0% / recent high). Bollinger Band data unavailable for squeeze analysis. Balanced risk/reward favors a HOLD — strong trend intact but price approaching 52-week high resistance with limited upside before major resistance at $443.62.",,MEDIUM,,
+9,AMAT,2026-05-14T13:42:20.671964,RISK,BUY,0.72,"AMAT shows STRONG_UPTREND with RSI at 59.28 (not overbought), VERY_BULLISH sentiment at 85% confidence, 10.36% price gain over 7 days, and 1.3x elevated volume. Current price ($436.61) is near 52-week high ($443.62), indicating momentum but also proximity to resistance. Volatility at 3.02% is moderate. MACD is positive at 9.94. Position sizing recommended at 5-7% of portfolio given elevated momentum risk and proximity to 52-week highs. Stop-loss at ~$415 (52-week low reference zone ~$381; near-term support at ~$415). Pattern analysis was unavailable. Risk level set to MEDIUM due to strong momentum offset by high proximity to resistance and recent sharp price appreciation.",,MEDIUM,,
+10,AMAT,2026-05-14T13:45:16.016308,REGULATORY,HOLD/BUY,0.85,"Comprehensive SEC Regulation M compliance review for AMAT completed. Analysis covers: (1) Compliance Check: COMPLIANT status confirmed — 0 violations detected; (2) Market Data: Current price $436.61, 5-day volume avg 8.27M shares, volume spike ratio 0.94 (below threshold — no abnormal volume activity); (3) Audit History: Prior entries (HOLD x2, BUY x1) all show MEDIUM risk and no prior compliance flags; (4) Trading Signals: Strategy Agent signals HOLD (62% confidence), Risk Manager signals BUY (72% confidence), Market Analyst is CAUTIOUSLY BULLISH (66% confidence). No manipulative trading patterns, wash trading, or distribution-period violations detected. Volume at 0.94x average is within normal range — no artificial price inflation detected. MACD at 5.73 is positive. STRONG_UPTREND classification is organically driven. Regulation M distribution period restrictions: Not applicable — no active underwriting or secondary offering identified for AMAT. Conclusion: APPROVED with standard caution near 52-week high resistance ($443.62). Recommend monitoring volume for abnormal spikes if price approaches or breaks above 52-week high.",COMPLIANT,,,
+11,AMAT,2026-05-14T13:45:36.200646,REGULATORY,"✅ APPROVED — Proceed with HOLD/BUY strategy as outlined by the trading agents, subject to the following compliance guardrails:
+
+1. **Volume Monitoring:** If AMAT volume spikes above 1.5x the 8.27M average (>12.4M shares/day), pause trading and re-run compliance check — elevated volume near the 52-week high ($443.62) could attract regulatory scrutiny.
+
+2. **Position Sizing Discipline:** Adhere to the 6–6.5% portfolio allocation recommended by Risk and Strategy agents. Oversized positions near a 52-week high could raise manipulation concerns if combined with public commentary.
+
+3. **Breakout Scrutiny:** Any trade executed immediately before or during a high-volume breakout above $443.62 should be documented with full rationale to demonstrate non-manipulative intent.
+
+4. **Ongoing Monitoring:** Continue quarterly Regulation M reviews and immediately escalate if AMAT becomes subject to any underwriting, follow-on offering, or lock-up expiry events.
+
+5. **Stop-Loss Adherence:** Maintain stop-loss at $415–$421 as specified; abrupt exit of large positions without clear rationale could trigger market impact reviews.",0.9,"A comprehensive SEC Regulation M compliance review was conducted for AMAT across four analytical pillars:
+
+**1. 🔍 Compliance Check (Automated):**
+The automated compliance engine returned a COMPLIANT status with 0 violations and 85% confidence. No Regulation M distribution-period activity, no prohibited purchases, and no anti-manipulation concerns were flagged.
+
+**2. 📊 Market Data Analysis (5-Day Window):**
+- Current Price: $436.61 | Prev. Close: $431.20 (+1.25%)
+- 52-Week High: $443.62 | 52-Week Low: $410.64
+- Avg. Volume: 8,268,840 | Recent Volume: 7,793,800
+- Volume Spike Ratio: 0.94x — NORMAL, well below manipulation-threshold levels
+- Trend: STRONG_UPTREND | MACD: +5.73 (bullish)
+- No abnormal price-volume patterns consistent with market manipulation or wash trading were detected.
+
+**3. 📁 Audit History Review:**
+Three prior audit entries were reviewed (all dated 2026-05-14): two HOLD signals from the Strategy Agent (confidence: 62%) and one BUY from the Risk Manager (confidence: 72%). All entries reflect MEDIUM risk posture with no prior compliance flags, consistent with today's analysis.
+
+**4. ⚖️ Trading Signal Compliance Assessment:**
+- **Market Analyst (66% confidence):** CAUTIOUSLY BULLISH — organic trend driven by fundamentals and technical momentum.
+- **Strategy Agent (62% confidence):** HOLD — consolidation near resistance; no compliance concerns.
+- **Risk Manager (72% confidence):** BUY — momentum trade within normal market parameters.
+None of the proposed signals involve coordinated trading, layering, spoofing, or any other Regulation M-prohibited activity. The divergence between HOLD and BUY signals reflects legitimate analyst disagreement, not manipulation.
+
+**5. 🚦 Regulation M Applicability Assessment:**
+No active secondary offerings, underwriting distributions, or restricted periods were identified for AMAT. Regulation M distribution-period purchase prohibitions are **not currently triggered**. All proposed trading activity falls within normal secondary market operations.",COMPLIANT,,,
+12,AMAT,2026-05-14T13:46:39.069996,SUPERVISOR,BUY,0.68,"Supervisor final decision for AMAT after comprehensive review of all agent inputs, live market data, trading history, and regulatory audit trail.
+
+DECISION RATIONALE — BUY (Moderate, 6% Position):
+
+1. AGENT CONSENSUS SYNTHESIS:
+   - Market Analyst (66% confidence): CAUTIOUSLY BULLISH — Strong uptrend, RSI 59.28, MACD +9.94, with Fibonacci caution near resistance. Recommends dip-buying but acknowledges bullish structure.
+   - Strategy Agent (62% confidence): HOLD — Conflicting signals between strong trend and proximity to 52-week high resistance ($443.62). Prefers entry at $431–$433 Fibonacci support zone.
+   - Risk Manager (72% confidence): BUY — Strong momentum (MACD +9.94, RSI 59.28 non-overbought), VERY_BULLISH 7-day sentiment at 85%, +10.36% 7-day gain, 1.3x volume elevation. Recommends 6% position with stop-loss at $415.
+   - Compliance Agent (90% confidence): APPROVED — COMPLIANT, no Regulation M violations, no manipulative patterns, normal volume at 0.94x average.
+
+2. MARKET DATA CONFIRMATION (Live):
+   - Current Price: $436.61 | Prev Close: $431.20 (+1.25%)
+   - 52-Week Range: $381.11–$443.62 (trading in top ~10%)
+   - RSI: 59.28 (bullish, room to run before overbought at 70)
+   - MACD: +9.94 (solidly bullish momentum)
+   - Trend: STRONG_UPTREND | Volume: NORMAL
+
+3. SUPERVISOR BALANCING FRAMEWORK:
+   - The Risk Manager's BUY at 72% confidence carries the highest conviction among agents and is supported by the strongest near-term data (VERY_BULLISH sentiment, elevated volume, healthy technicals).
+   - The Strategy Agent's HOLD is driven primarily by resistance proximity, which is a valid near-term concern but does not negate the underlying trend strength for a position trade.
+   - The Market Analyst's cautious bullish stance aligns with a measured BUY rather than aggressive accumulation.
+   - Compliance is fully approved with no restrictions.
+   - A BUY at current levels with a conservative 6% position size appropriately balances the bullish structural momentum against near-term resistance risk.
+
+4. RISK MANAGEMENT:
+   - Entry: $436.61 (current market price)
+   - Stop-Loss: $415.00 (~4.95% downside, below recent consolidation zone)
+   - Target 1: $443.62 (52-week high breakout level, +1.6%)
+   - Target 2: $448.45 (Fibonacci 0% target, +2.7% on breakout)
+   - Risk/Reward: ~1:1.4 (acceptable for momentum trade; improves significantly on breakout above $443.62)
+   - Position Size: 6% of portfolio (conservative, aligning with both Risk Manager and Strategy Agent guidance)
+
+5. KEY MONITORING TRIGGERS:
+   - UPGRADE to ADD/INCREASE if AMAT closes above $443.62 with volume >1.5x average (breakout confirmation)
+   - DOWNGRADE to HOLD/REDUCE if RSI exceeds 70 without volume confirmation
+   - STOP-LOSS at $415.00 — hard exit to preserve capital",,MEDIUM,6%,
+13,AMAT,2026-05-14T13:46:56.476013,SUPERVISOR,BUY,0.68,"FINAL DECISION: BUY
+
+ANALYSIS: **Supervisor Decision: Moderate BUY at 6% Portfolio Allocation**
+
+After synthesizing all agent inputs, live market data, and the regulatory audit trail, the Supervisor recommends a **BUY** for AMAT with a **6% portfolio position** and MEDIUM risk classification.
+
+**Agent Weight & Integration:**
+- The **Risk Manager's BUY (72% confidence)** carries the highest conviction, backed by VERY_BULLISH 7-day sentiment (85%), a +10.36% 7-day price gain, and 1.3x elevated volume — the strongest near-term data signal in this analysis.
+- The **Market Analyst's CAUTIOUSLY BULLISH (66%)** view supports the trend structure: STRONG_UPTREND, RSI 59.28 (not overbought), MACD +9.94 — confirming no near-term exhaustion.
+- The **Strategy Agent's HOLD (62%)** raises valid resistance concerns ($443.62 proximity) but reflects a more conservative stance suited to traders seeking ideal entry, not position investors with disciplined risk management.
+- **Compliance (90% confidence)** fully approves all trading activity — COMPLIANT, zero violations, normal volume patterns.
+
+**Decision Logic:**
+The collective signal skews BUY: 2 of 3 trading agents either directly signal BUY or characterize conditions as bullish. The lone HOLD reflects near-term caution rather than bearish fundamentals. Given a hard stop-loss at $415 (~5% drawdown), a 6% position limits portfolio drawdown to ~0.3% in the worst case — an acceptable risk for a stock in a confirmed STRONG_UPTREND with healthy technicals (RSI 59, MACD +9.94) and clear bullish momentum.
+
+**Entry:** $436.61 | **Stop-Loss:** $415.00 | **Target 1:** $443.62 | **Target 2:** $448.45 | **R/R:** ~1:1.4
+
+**Upgrade trigger:** Close above $443.62 on volume >1.5x average → consider adding to position.",,,,
+14,AMAT,2026-05-14T13:47:51.160729,SIGNAL,HOLD,0.62,"AMAT is in a STRONG_UPTREND with bullish sentiment (70% confidence, +6.32% 3-day price change). RSI at 59.28 indicates momentum without being overbought. However, Fibonacci analysis signals SELL (65% confidence) as price at $436.61 is trading above the 23.6% retracement level ($431.60) and approaching the 0% swing high ($448.45). MACD is positive at 9.94, supporting near-term bullish bias. The confluence of bullish sentiment/trend vs. Fibonacci resistance near the 52-week high ($443.62) warrants a HOLD — waiting for either a pullback to the 23.6% Fib support ($431.60) for a stronger BUY entry, or a confirmed breakout above $448.45 before initiating new long positions.",,MEDIUM,,
+15,AMD,2026-05-14T13:49:53.326928,STRATEGY,HOLD,0.62,"AMD is in a STRONG_UPTREND with current price at $445.50, but RSI at 75.05 signals overbought conditions. MACD is strongly bullish at 46.42, yet Fibonacci analysis indicates price is near the 0% retracement ceiling at $469.22, with a SELL signal confidence of 0.65. Conflicting signals between momentum and Fibonacci proximity to resistance justify a HOLD rather than initiating new long or short positions. Recommend waiting for RSI pullback below 65 or a confirmed Fibonacci support retest before re-entry.",,MEDIUM,,
+16,AMD,2026-05-14T13:50:19.141251,RISK,HOLD,0.62,"AMD is in a strong uptrend with current price $445.50, but RSI of 75.05 signals overbought conditions. 7-day price surge of 74.7% and high volatility of 6.14% indicate elevated risk. MACD of 46.42 confirms bullish momentum but also suggests stretched valuations. Recommend HOLD with reduced position sizing (5-8%) and strict stop-loss at $420 to preserve capital. Pattern analysis was unavailable due to a data error.",,HIGH,,
+17,AMD,2026-05-14T13:51:04.586186,REGULATORY,SEE_AGENT_OUTPUT,0.9,No regulatory analysis,PROCESSED_BY_PYDANTICAI,,,
+18,AMD,2026-05-14T13:51:13.736792,SIGNAL,SELL,0.67,"AMD is trading at $445.50, dangerously close to the 52-week high of $458.79 and near the 0% Fibonacci level ($469.22), indicating the price is extended and overheated. RSI at 75.05 is firmly in overbought territory (>70), confirming bearish divergence risk. MACD at 46.42 is elevated. While short-term sentiment is bullish (+9.07% in 3 days) with 0.70 confidence, the Fibonacci analysis issues a SELL signal (0.65 confidence) as price approaches resistance. The parabolic 3-day surge without volume confirmation (1.0x average) makes a mean-reversion likely. Target exit: $420.20 (23.6% Fibonacci retracement), entry on any relief rally toward $450-$452.",,HIGH,,
+19,AMD,2026-05-14T13:52:32.243479,REGULATORY,HOLD - No new trades initiated; APPROVED with monitoring,0.85,"Comprehensive SEC Regulation M compliance analysis for AMD completed. Current price: $445.50. Volume spike ratio: 0.69x (below average — no unusual accumulation or manipulation detected). No wash trading, layering, or quote stuffing patterns identified. Audit history review confirms consistent HOLD signals from risk and strategy agents with no escalating compliance violations. Trading signals (HOLD from strategy/risk agents, SELL from market analyst) reflect legitimate technical analysis based on RSI overbought (75.05), Fibonacci resistance near 0% level ($469.22), and normal volume trends. No evidence of distribution manipulation or coordinated trading activity. Regulation M compliance check returned COMPLIANT with 0 violations. RECOMMENDATION: APPROVED — existing holders may maintain positions with tightened stop-losses; no new long entries advised at current elevated levels. No trade blocking required.",COMPLIANT,,,
+20,AMD,2026-05-14T13:52:56.587474,REGULATORY,"PROCEED_WITH_CAUTION — AMD trading activity is SEC Regulation M COMPLIANT. No trade blocking is required. However, given overbought RSI (75.05), parabolic 3-day price surge (+9.07%), proximity to 52-week highs, and a SELL signal from Fibonacci analysis (65% confidence), any new long entries should be deferred until a confirmed pullback to the $420–$430 support zone. Existing positions may be held with strict stop-loss enforcement at $420.20 (23.6% Fib). Compliance monitoring should remain active given the elevated technical risk environment.",0.9,"## 🛡️ SEC Regulation M Compliance Analysis — AMD
+
+### ✅ Compliance Verdict: COMPLIANT
+The automated compliance engine returned **zero violations** for AMD with **85% confidence**. A full cross-analysis of market data, trading signals, and audit history confirms no regulatory red flags.
+
+---
+
+### 📋 Step-by-Step Compliance Review
+
+#### 1. 🔍 Regulation M Compliance Check
+- **Status:** ✅ COMPLIANT
+- **Violations Detected:** 0
+- **Confidence:** 85%
+- No evidence of prohibited activities (manipulation, wash trading, layering, spoofing, or coordinated distribution schemes) was identified.
+
+#### 2. 📊 Market Data & Volume Analysis
+- **Current Price:** $445.50 | **Prev. Close:** $448.29 | **Change:** -0.62%
+- **52-Week Range:** $408.46 – $458.79
+- **Recent Volume:** 30,317,400 | **Average Volume:** 43,712,660
+- **Volume Spike Ratio: 0.69x** — Volume is *below* average, indicating **no unusual accumulation, distribution manipulation, or artificial volume inflation**. This is a key Regulation M compliance indicator — manipulative schemes typically produce volume ratios >2.0x.
+- **Trend:** STRONG_UPTREND — Driven by fundamental momentum, not artificial price support.
+
+#### 3. 📜 Audit History Review (Last 4 Entries)
+| ID | Type | Action | Confidence | Risk |
+|----|------|--------|------------|------|
+| 18 | SIGNAL | SELL | 0.67 | HIGH |
+| 17 | REGULATORY | SEE_AGENT | 0.90 | — |
+| 16 | RISK | HOLD | 0.62 | HIGH |
+| 15 | STRATEGY | HOLD | 0.62 | MEDIUM |
+
+- **Pattern Assessment:** All prior entries reflect legitimate, independently-derived analytical decisions. No repetitive or coordinated trading patterns suggesting manipulation. HOLD signals from strategy and risk agents are consistent with overbought technical conditions — not compliance concerns.
+- **Prior Compliance Flags:** None escalated. No blocked trades in recent history.
+
+#### 4. 🚨 Trading Signal Compliance Assessment
+| Signal Source | Decision | Compliance Risk |
+|--------------|----------|----------------|
+| Market Analyst | SELL (65% Fib conf.) | ✅ Legitimate technical signal |
+| Strategy Agent | HOLD (62%) | ✅ RSI/Fibonacci-based, not manipulative |
+| Risk Manager | HOLD (62%) | ✅ Capital preservation rationale |
+| Overall Consensus | HOLD | ✅ No compliance concern |
+
+- **RSI at 75.05** (overbought) — A standard technical indicator, not a compliance violation
+- **+9.07% 3-day surge** — Driven by market forces, not artificial price inflation (volume does not confirm unusual buy-side pressure)
+- **Fibonacci SELL signal** — Legitimate technical analysis near the 0% retracement resistance ($469.22)
+
+#### 5. 🚫 Trade Blocking Assessment
+| Criteria | Status |
+|----------|--------|
+| Wash Trading Detected | ❌ No |
+| Unusual Volume Spike (>2x) | ❌ No (0.69x) |
+| Coordinated Manipulation Pattern | ❌ No |
+| Price Ramping Evidence | ❌ No |
+| Distribution Scheme Indicators | ❌ No |
+| Regulation M Direct Violation | ❌ No |
+
+**Conclusion: NO TRADES BLOCKED.** All trading activity falls within regulatory boundaries.
+
+---
+
+### ⚠️ Compliance Caution Flags (Non-Blocking)
+While no violations are present, the following warrant **ongoing monitoring**:
+1. **Overbought RSI (75.05):** Elevated technical stress — watch for abnormal short-side pressure that could indicate coordinated bear raids
+2. **Parabolic Price Move (+9.07% / 3 days):** Warrants surveillance for potential pump-and-dump patterns in broader market context
+3. **Volume-Price Divergence:** Price surging on below-average volume could attract regulatory scrutiny if sustained
+
+---
+
+### 🏁 Final Compliance Determination
+- **Regulation M Status:** ✅ COMPLIANT
+- **Trade Blocking:** NOT REQUIRED
+- **Monitoring Level:** ELEVATED (due to overbought conditions and rapid price appreciation)
+- **Audit Entry:** SAVED ✅
+- **Recommendation:** **PROCEED_WITH_CAUTION** — Trades approved within existing risk parameters; defer new long entries until $420–$430 pullback zone",COMPLIANT,,,
+21,AMD,2026-05-14T13:53:49.366568,SIGNAL,SELL,0.68,"AMD is trading at $445.50, near the 0% Fibonacci level ($469.22), indicating price is approaching exhaustion at the top of the recent range. RSI is overbought at 75.05, and MACD is highly elevated at 46.42. Although short-term sentiment is BULLISH (+9.1% over 3 days), the technical picture — overbought RSI, proximity to Fibonacci resistance, and Fibonacci SELL signal (confidence 0.65) — outweighs the bullish sentiment. Entry at current price (~$445.50) with a target exit near the 38.2% Fibonacci retracement level ($389.87) suggests meaningful downside risk. Trend is STRONG_UPTREND but momentum indicators point to near-term reversal risk.",,HIGH,,

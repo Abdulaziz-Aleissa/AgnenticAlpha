@@ -45,3 +45,21 @@ id,symbol,decision,confidence,agent_name,created_at
 44,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:12.836386
 45,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:12.842256
 46,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:12.854918
+47,AMAT,HOLD,0.62,strategy_agent,2026-05-14T13:40:35.035321
+48,AMAT,HOLD,0.62,strategy_agent,2026-05-14T13:41:55.824649
+49,AMAT,Market Analysis Completed,0.8,market_analyst,2026-05-14T13:48:36.467717
+50,AMAT,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T13:48:36.481211
+51,AMAT,Risk Analysis Completed,0.85,risk_manager,2026-05-14T13:48:36.494069
+52,AMAT,"✅ APPROVED — Proceed with HOLD/BUY strategy as outlined by the trading agents, subject to the following compliance guardrails:
+
+1. **Volume Monitoring:** If AMAT volume spikes above 1.5x the 8.27M average (>12.4M shares/day), pause trading and re-run compliance check — elevated volume near the 52-week high ($443.62) could attract regulatory scrutiny.
+
+2. **Position Sizing Discipline:** Adhere to the 6–6.5% portfolio allocation recommended by Risk and Strategy agents. Oversized positions near a 52-week high could raise manipulation concerns if combined with public commentary.
+
+3. **Breakout Scrutiny:** Any trade executed immediately before or during a high-volume breakout above $443.62 should be documented with full rationale to demonstrate non-manipulative intent.
+
+4. **Ongoing Monitoring:** Continue quarterly Regulation M reviews and immediately escalate if AMAT becomes subject to any underwriting, follow-on offering, or lock-up expiry events.
+
+5. **Stop-Loss Adherence:** Maintain stop-loss at $415–$421 as specified; abrupt exit of large positions without clear rationale could trigger market impact reviews.",0.9,regulatory_agent,2026-05-14T13:48:36.515171
+53,AMAT,BUY,0.68,supervisor,2026-05-14T13:48:36.529462
+54,AMD,HOLD,0.62,strategy_agent,2026-05-14T13:49:53.326928
