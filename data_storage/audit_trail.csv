@@ -1,0 +1,103 @@
+id,symbol,timestamp,decision_type,action,confidence,rationale,compliance_status,risk_level,position_size,blocked_trades
+1,AAPL,2026-05-14T11:05:20.337116,STRATEGY,SELL,0.72,"AAPL is trading at $298.87, near its 52-week high of $298.87 and the Fibonacci 0% resistance level at $300.92. RSI is at 77.99 (overbought territory above 70), signaling exhaustion. MACD is positive at 8.55 but no confirmed bullish crossover signal. Price is in a confirmed UPTREND but momentum indicators suggest a near-term pullback is likely. Fibonacci analysis independently signals SELL with 65% confidence. Combined multi-indicator analysis raises overall confidence to 72%. Recommended entry for short: $298.87–$300.92. Target exit at 38.2% retracement ($285.68) or 50% level ($280.97). Stop-loss above $303.00. Position sizing: 8–10% of portfolio given HIGH risk conditions near all-time high resistance.",,HIGH,,
+2,AAPL,2026-05-14T11:05:43.893542,RISK,HOLD,0.62,"AAPL is trading at its 52-week high of $298.87 with an RSI of 78.0 (overbought), a 15.6% price surge in 7 days, and MACD at +8.55 indicating strong bullish momentum. While sentiment is bullish, the overbought RSI and price proximity to 52W high present elevated short-term reversal risk. Position sizing is capped conservatively. Pattern analysis was unavailable. Recommend HOLD with reduced new position exposure and tight risk controls.",,HIGH,,
+3,AAPL,2026-05-14T11:25:53.445473,REGULATORY,PROCEED_WITH_CAUTION,0.81,"SEC Regulation M Comprehensive Compliance Review for AAPL — May 14, 2026.
+
+COMPLIANCE TOOL RESULT: COMPLIANT (0.85 confidence) — No formal Regulation M violations detected. Volume spike ratio of 1.1x (recent: 52,610,300 vs avg: 47,704,560) is within normal bounds and does not trigger Regulation M distribution activity thresholds.
+
+MARKET DATA ANALYSIS: AAPL current price $298.87 AT 52-week high. MACD: +1.86 (5d window). Trend: UPTREND. Volume: NORMAL (1.0–1.1x average). No abnormal distribution activity patterns identified.
+
+AUDIT HISTORY CONTEXT: Two prior entries reviewed — (1) STRATEGY SELL at 0.72 confidence citing RSI 77.99 overbought, Fibonacci 0% resistance at $300.92, targeting $285.68–$280.97 pullback. (2) RISK HOLD at 0.62 confidence citing 52-week high, 15.6% 7-day surge, capped position sizing.
+
+SIGNAL CONFLICT ASSESSMENT: Three agents produced conflicting signals — Market Analyst (MIXED-CAUTIOUS), Strategy Agent (SELL, 0.72), Risk Manager (HOLD, 0.62). No agent signals BUY. The SELL signal from strategy at elevated RSI (77.99) near a known Fibonacci resistance level ($300.92) raises Regulation M concerns around potential coordinated short-selling activity near a distribution zone, though no confirmed violation is present.
+
+REGULATION M FLAGS REVIEWED:
+1. No underwriting/distribution event detected — no Reg M Rule 101/102 triggers.
+2. Volume spike ratio 1.1x — below the 1.5x threshold typically associated with manipulation concern.
+3. No wash trading, layering, or spoofing patterns identified in 5-day data.
+4. Short-sell SELL signal at 52-week high near resistance warrants monitoring for potential bear raid activity — flagged for ongoing surveillance.
+5. Conflicting agent signals (SELL vs HOLD) with no BUY consensus — not a violation but merits caution in execution.
+
+RECOMMENDATION: PROCEED_WITH_CAUTION. All formal Regulation M checks pass. Elevated RSI, 52-week high proximity, and a SELL signal near resistance warrant cautious execution with enhanced trade monitoring. No trades blocked at this time.",COMPLIANT,,,
+4,AAPL,2026-05-14T11:26:15.580076,REGULATORY,PROCEED_WITH_CAUTION,0.9,"## 🏛️ SEC Regulation M Compliance Report — AAPL
+
+---
+
+### ✅ Overall Status: COMPLIANT — Proceed with Caution
+
+After conducting a comprehensive 7-step Regulation M compliance review, **no formal violations were detected**. However, several elevated-risk technical and behavioral signals warrant cautious execution and enhanced monitoring.
+
+---
+
+### 📋 Step-by-Step Compliance Findings
+
+#### 1. Compliance Tool Analysis
+- **Result:** COMPLIANT (85% confidence)
+- **Violations Found:** 0
+- No Regulation M Rule 101 or Rule 102 triggers identified — no active distribution or underwriting activity for AAPL detected.
+
+#### 2. Market Data & Volume Analysis
+- **Current Price:** $298.87 (AT 52-week high)
+- **Recent Volume:** 52,610,300 shares | **Average Volume:** 47,704,560 shares
+- **Volume Spike Ratio:** 1.1x — within normal bounds; well below the 1.5x concern threshold
+- **Trend:** Confirmed UPTREND | **5-Day MACD:** +1.86 (bullish)
+- **Assessment:** No abnormal distribution patterns or manipulative volume behavior detected.
+
+#### 3. Audit History Review
+Two prior entries in the audit trail were reviewed:
+| Entry | Agent | Signal | Confidence | Risk Level |
+|-------|-------|--------|------------|------------|
+| STRATEGY | Strategy Agent | SELL | 72% | HIGH |
+| RISK | Risk Manager | HOLD | 62% | HIGH |
+
+Both prior entries flagged HIGH risk conditions at the 52-week high, with RSI at 77.99 (overbought). No compliance violations in the audit history.
+
+#### 4. Trading Signal Violation Analysis
+Three agents submitted signals for review:
+| Agent | Signal | Confidence | Key Driver |
+|-------|--------|------------|------------|
+| Market Analyst | MIXED-CAUTIOUS | 66% | RSI 77.99 overbought, Fib resistance $300.92 |
+| Strategy Agent | SELL | 72% | Multi-indicator: RSI, Fib 0%, Bollinger Upper Band |
+| Risk Manager | HOLD | 62% | 52W high, +15.6% 7-day surge, overbought |
+
+**Signal Conflicts Noted:**
+- ⚠️ No BUY signals from any agent — all bearish or neutral
+- ⚠️ SELL signal near 52-week high at known Fibonacci resistance ($300.92) monitored for potential bear-raid patterns
+- ✅ Conflict between SELL and HOLD is a legitimate risk divergence, not a compliance violation
+
+#### 5. Regulation M Specific Flags
+| Rule | Status | Notes |
+|------|--------|-------|
+| **Rule 101** (Distribution Participants) | ✅ No Trigger | No underwriting/distribution event active |
+| **Rule 102** (Issuer/Selling Security Holder) | ✅ No Trigger | No issuer repurchase restriction applies |
+| **Volume Manipulation** | ✅ Clear | 1.1x spike ratio — normal range |
+| **Short-Sell Near Resistance** | ⚠️ Monitor | SELL signal at $298.87–$300.92 near Fib 0% ceiling — surveillance flagged |
+| **Wash Trading / Layering** | ✅ Clear | No patterns detected in 5-day data |
+| **Coordinated Signal Activity** | ⚠️ Monitor | Multi-agent SELL consensus near all-time high warrants review |
+
+#### 6. Audit Entry Saved
+A comprehensive compliance audit entry has been saved with full rationale, confidence scoring (0.81), and COMPLIANT status designation for regulatory trail purposes.
+
+#### 7. Trade Disposition
+- 🟢 **No trades are BLOCKED** — formal Regulation M criteria not breached
+- 🟡 **PROCEED_WITH_CAUTION** — elevated risk conditions and SELL-biased signals require:
+  - Enhanced pre-trade surveillance on any SELL/short orders
+  - Position size caps consistent with Risk Manager guidance (≤5% portfolio)
+  - Stop-loss enforcement above $303.00 if executing the Strategy Agent's SELL signal
+  - Volume monitoring — escalate if ratio exceeds 1.5x average
+
+---
+
+### 📌 Final Compliance Recommendation
+
+**🟡 PROCEED_WITH_CAUTION**
+
+All Regulation M formal criteria pass. The SELL signal at AAPL's 52-week high ($298.87) near the Fibonacci 0% resistance level ($300.92) is technically driven and not indicative of manipulative activity, but heightened surveillance is warranted given:
+- RSI overbought at 77.99
+- +15.6% price surge in 7 days
+- Multi-agent SELL consensus near all-time high
+- No volume confirmation for continued upside
+
+Trades may proceed within established risk parameters. Compliance team should monitor for any volume anomalies or coordinated activity if short positions are initiated.",COMPLIANT,,,
+5,AAPL,2026-05-14T11:27:40.452266,SUPERVISOR,HOLD,0.8,No supervisor decision available,,,,
+6,AAPL,2026-05-14T11:28:14.336432,SIGNAL,SELL,0.72,"AAPL is trading at $298.87, just below the 52-week high and near the 0% Fibonacci level ($300.92), indicating strong resistance. RSI is severely overbought at 78.0, and MACD is strongly positive at 8.55 — classic signs of an overextended rally. Despite bullish short-term sentiment (+4.1% in 3 days), the Fibonacci model signals SELL with 65% confidence. The convergence of overbought RSI, proximity to the all-time high resistance, and Fibonacci reversal signal justifies a SELL with a target entry at $298.87, exit/take-profit at the 38.2% retracement of $285.68.",,HIGH,,

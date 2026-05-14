@@ -1,0 +1,47 @@
+id,symbol,decision,confidence,agent_name,created_at
+1,AAPL,SELL,0.72,strategy_agent,2026-05-14T11:05:20.334572
+2,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:28:49.590117
+3,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:28:49.596282
+4,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:28:49.602490
+5,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:28:49.611324
+6,AAPL,HOLD,0.8,supervisor,2026-05-14T11:28:49.618988
+7,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:29:03.102718
+8,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:29:03.109965
+9,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:03.119804
+10,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:03.124678
+11,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:03.132799
+12,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:29:07.338848
+13,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:29:07.346184
+14,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:07.353388
+15,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:07.359207
+16,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:07.364827
+17,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:29:09.414616
+18,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:29:09.422942
+19,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:09.431182
+20,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:09.438227
+21,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:09.444534
+22,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:29:10.318947
+23,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:29:10.327073
+24,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:10.336159
+25,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:10.339381
+26,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:10.346798
+27,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:29:10.959693
+28,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:29:10.968988
+29,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:10.977429
+30,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:10.986483
+31,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:10.996140
+32,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:29:11.648329
+33,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:29:11.655837
+34,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:11.665792
+35,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:11.672098
+36,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:11.674099
+37,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:29:12.185540
+38,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:29:12.192689
+39,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:12.202527
+40,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:12.207073
+41,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:12.215110
+42,AAPL,Market Analysis Completed,0.8,market_analyst,2026-05-14T11:29:12.819084
+43,AAPL,Strategy Analysis Completed,0.75,strategy_agent,2026-05-14T11:29:12.827294
+44,AAPL,Risk Analysis Completed,0.85,risk_manager,2026-05-14T11:29:12.836386
+45,AAPL,PROCEED_WITH_CAUTION,0.9,regulatory_agent,2026-05-14T11:29:12.842256
+46,AAPL,HOLD,0.8,supervisor,2026-05-14T11:29:12.854918
