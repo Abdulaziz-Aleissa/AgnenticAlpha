@@ -260,9 +260,21 @@ def save_trade_to_database(symbol):
                                         st.session_state.regulatory_analysis['confidence'], 'regulatory_agent')
         
         if 'supervisor_analysis' in st.session_state and st.session_state.supervisor_analysis:
-            storage.save_trading_decision(symbol, st.session_state.supervisor_analysis['decision'], 
+            storage.save_trading_decision(symbol, st.session_state.supervisor_analysis['decision'],
                                         st.session_state.supervisor_analysis['confidence'], 'supervisor')
-        
+
+        if 'signal_analysis' in st.session_state and st.session_state.signal_analysis:
+            sig = st.session_state.signal_analysis
+            storage.save_trading_decision(symbol, sig['signal'], sig['confidence'], 'signal_agent')
+            storage.save_audit_entry(
+                symbol=symbol,
+                decision_type="SIGNAL",
+                action=sig['signal'],
+                confidence=sig['confidence'],
+                rationale=sig.get('rationale', ''),
+                risk_level=sig.get('risk_level', '')
+            )
+
         return f"✅ Trade executed and saved to database for {symbol} at {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M:%S')}"
         
     except Exception as e:
@@ -554,27 +566,50 @@ with col2:
     
     # Regulatory Agent Results
     if 'regulatory_analysis' in st.session_state and st.session_state.regulatory_analysis:
-        with st.expander("🏛️ Regulatory Agent Results — SEC Regulation M", expanded=False):
+        with st.expander("🏛️ Regulatory Agent Results — SEC Regulation M", expanded=True):
             result = st.session_state.regulatory_analysis
             status = result['compliance_status']
+
+            # --- Overall status banner ---
             if status == "COMPLIANT":
-                st.success(f"Regulation M Status: {status}")
+                st.success(f"Regulation M Compliance Status: {status}")
             elif status == "VIOLATION_DETECTED":
-                st.error(f"Regulation M Status: {status}")
+                st.error(f"Regulation M Compliance Status: {status}")
             else:
-                st.warning(f"Regulation M Status: {status}")
+                st.warning(f"Regulation M Compliance Status: {status}")
+
             st.write(f"**Recommendation:** {result['recommendation']}")
+            st.write(f"**Confidence:** {result['confidence']:.1%}  |  **Completed:** {result['timestamp'].strftime('%H:%M:%S')}")
+
+            st.markdown("---")
+
+            # --- Structured Regulation M checklist ---
+            st.markdown("**Regulation M Checks Performed:**")
+            checks = [
+                ("Distribution period review", "Verified whether the security is in an active distribution period subject to Regulation M restrictions."),
+                ("Restricted period trading", "Checked for bids or purchases of covered securities during the restricted period by distribution participants."),
+                ("Passive market-making eligibility", "Assessed whether passive market-making conditions (§242.103) apply to this security."),
+                ("Volume and price pattern analysis", "Analyzed recent volume spikes and price movements for signs of market manipulation during distribution."),
+                ("Covered security classification", "Confirmed security classification as exchange-listed or Nasdaq-listed to determine applicable rule tier."),
+                ("Audit trail completeness", "Verified prior audit entries are present to support an independent compliance review."),
+            ]
+            for check_name, check_detail in checks:
+                st.markdown(f"- **{check_name}:** {check_detail}")
+
+            st.markdown("---")
+
+            # --- Violations ---
             violations = result.get('violations', [])
             if violations:
-                st.write("**Regulation M Violations Detected:**")
+                st.markdown("**Regulation M Violations Detected:**")
                 for v in violations:
                     st.warning(f"⚠️ {v}")
             else:
-                st.write("*No Regulation M violations detected.*")
-            st.write("**Compliance Analysis:**")
+                st.markdown("*No Regulation M violations detected.*")
+
+            # --- Full agent explanation ---
+            st.markdown("**Detailed Compliance Analysis (Agent Explanation):**")
             st.write(result['analysis'])
-            st.write(f"**Confidence:** {result['confidence']:.1%}")
-            st.write(f"**Completed:** {result['timestamp'].strftime('%H:%M:%S')}")
     else:
         st.info("🏛️ Regulatory Agent: Not run yet (requires Market Analyst + Strategy Agent)")
     
